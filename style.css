@@ -1,0 +1,93 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html
+{
+    font-family: monospace;
+}
+section
+{
+    min-width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(148deg, rgba(0,7,9,1) 0%, rgba(7,118,127,1) 39%, rgba(11,183,196,1) 46%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container
+{
+    min-width: 300px;
+    min-height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+  
+}
+.display
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(49, 60, 66);
+    text-align: right;
+    font-size: 30px;
+    color: whitesmoke;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+    
+}
+.display-1
+{
+    font-size: 25px;
+    opacity: .4;
+    height: 24px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.display-2
+{
+  height: 30px;
+  overflow: hidden;
+}
+.temp-result
+{
+    opacity: 0.4;
+    position:absolute;
+    bottom: 10;
+    left: 10;
+    height: 25px;
+    font-size: 25px;
+    overflow: hidden;
+}
+.all-buttons
+{
+    background-color: rgb(33, 46, 46);
+    color: whitesmoke;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    cursor: pointer;
+}
+.button 
+{
+    border:0.5px solid rgb(41, 45, 48);
+    width: 100%;
+    background-color:rgb(34, 44, 44);
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button:hover
+{
+    background-color:rgb(31, 39, 39);
+}
+/* .btn-zero
+{
+    display: grid;
+    grid-column: 1/3;
+} */
